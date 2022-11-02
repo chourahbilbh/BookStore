@@ -1,0 +1,59 @@
+
+nav{
+    display: inline;
+    text-align: center;
+    
+}
+.div1{
+    text-align: left;
+}
+.form{
+    text-align: left;
+}
+.bigimage{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-image: url(../BookStore/book1.jpg);
+    background-size: cover;
+}
+
+h1{
+    font-family: Arial;
+    color: rgb(2, 2, 10);
+    text-align: center;
+    font-style: italic;
+}
+
+h2{
+    font-family: helvetica;
+    color:rgb(6, 8, 12);
+    text-align: center;
+    font-style: italic;
+}
+
+
+h3{
+font-style: oblique;
+text-decoration: solid;
+text-decoration: underline;
+}
+h4{
+    text-align:center;
+}
+
+
+.title{
+    color: rgb(8, 8, 12);
+}
+.p1{
+    text-align: center;
+    border: 1px solid;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    margin: 10px;
+}
+
+.div2{
+    text-align: center;
+}

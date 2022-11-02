@@ -4,71 +4,100 @@
         <meta charset="UTF-8"/> 
         <title>BookStore</title>
         <meta name="description" content="This is Our Books Store"/>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    
     </head>
-    <body>
+    <body class="bigimage">
+       
+        
         <div> 
         <h1>Books Store</h1> 
         <p> <h2>This is My <strong>BookStore</strong>, <u> Welcome</u></h2> </p> 
-        </div>
-        <p> <h3> This is our Pages</h3> </p>
-        <a href="https://www.facebook.com/NatGeoBooks/" target="_blank">Facebook</a>
-        <a href="https://www.instagram.com/books.arb/" target="_blank">Instagram</a>
-        <a href="https://www.youtube.com/c/audiolibrary-channel" target="_blank">Youtube</a>
-        <a href="mailto:chourahbil.bh@gmail.com">Contact Me</a>
-        <hr>
-        <h4>This is Our Store</h4>
+        
+          
+        <h4 class="title">This is Our Store </h4>
+        <nav>
         <ul>
-            <li>Audio Books</li>
-            <li>Videos Books</li>
-            <li>Papers Books</li>
+             <a href="" target="_blank"> Audio Books</a>
+             <a href="" target="_blank">Video Books</a> 
+             <a href="" target="_blank"> Paper Books</a>
         </ul>
-        <hr>
-        <table border="1">
-            <caption> Our Books </caption>
-            <tr>
-                <th>Audio Books</th>
-                <th>Videos Books</th>
-                <th>Papers Books</th>
-            </tr>
-            <tr>
-                <td>The Atomic Habits</td>
-                <td>The Great Gatsby</td>
-                <td>The Lord of the Rings</td>
-            </tr>
-            <tr>
-                <td>To Kill a Mockingbird</td>
-                <td>Harry Potter and the Philosopher’s Stone</td>
-                <td>Pride and Prejudice</td>
-            </tr>
-            <tr>
-                <td>The Book Thief</td>
-                <td>The Hobbit</td>
-                <td>Little Women</td>
-            
-            </tr>
+        <div class="div1">
+            <p> <h3 class="title"> Find Me On </h3> </p>
+    
+            <a href="https://www.facebook.com/NatGeoBooks/" target="_blank">Facebook</a>
+    
+            <a href="https://www.instagram.com/books.arb/" target="_blank">Instagram</a>
+    
+            <a href="https://www.youtube.com/c/audiolibrary-channel" target="_blank">Youtube</a>
+    
+            <a href="mailto:chourahbil.bh@gmail.com">Contact Us</a>
+            <a href="" target="_self">Sign in</a>
 
-        </table>
-        <hr>
+        </div>
+        </nav>
+        <form class="form">
+            <label>Name:</label>
+            <input type="text" name="first name" placeholder="Type your name here" />
+            <br />
+      
+            <label>Number:</label>
+            <input type="number" name="number" placeholder="Enter Your Phone Number" />
+            <br />
+      
+            <label>Password:</label>
+            <input type="password" name="password" placeholder="Enter Your Password"/>
+            <br />
+      
+            <input type="submit" value="Submit" />
+          </form>
+      </div>
+            <p class="p1">  A book shop is a place where different kinds of textbooks or reference books are sold. It is a very important place for all especially for the students.<br>
+                Generally a book shop is situated near school, college or a stationary market place. There are kept many shelves on which the books are nicely arranged.
+            </p>
+        
+            <div>
+                <table border="1">
+                    <caption> Best Seller </caption>
+                    <tr>
+                        <th>Audio Books</th>
+                        <th>Videos Books</th>
+                        <th>Papers Books</th>
+                    
+                    </tr>
+                        <td>The Atomic Habits</td>
+                        <td>The Great Gatsby</td>
+                        <td>The Lord of the Rings</td>
+                   <tr>
+                        <td>To Kill a Mockingbird</td>
+                        <td>Harry Potter and the Philosopher’s Stone</td>
+                        <td>Pride and Prejudice</td>
+                    
+                    </tr>
+                    <tr>
+                        <td>The Book Thief</td>
+                        <td>The Hobbit</td>
+                        <td>Little Women</td>
+                    </tr>
+        
+                </table>
+           
+                 </div>
+                    
+        
+                    
+        
+                 <div class="div2">
+        
         <audio controls>
-            <source src="file_example_MP3_1MG.mp3" type="audio/mpeg">
+            <source src="../BookStore/file_example_MP3_1MG.mp3" type="audio/mpeg">
                 Please Check the audio Extension
         </audio>
-
-        <video width="320" height="240" autoplay>
-            <source src="file_example_MP4_640_3MG.mp4" type="video/mp4" />
-            Please Check the video extension.
-        </video>
         
-        <div>
-        <img src="featured-image.jpg" alt="" width="400px">
-        <img src="Make+Layer+3.jpg" alt="" width="400">
-
+        
+        <img src="../BookStore/featured-image.jpg" alt="" width="400px">
         </div>
-
-        
-
-        
-
+    
 
     </body>
 </html>
